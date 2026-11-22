@@ -42,10 +42,11 @@
 <div class="explore-grid">
     <section class="grid-wide" id="history">
         <h2>History</h2>
-        <p>Nigeria has a rich history that dates back thousands of years. It was home to several ancient civilizations, including the Nok culture, which is known for its terracotta sculptures. The region was later influenced by various empires and kingdoms, such as the Oyo Empire and the Benin Kingdom.</p>
-<p></p>
+        <div class="placeholder-img">Image: Benin bronze / Nok terracotta (placeholder)</div>
+        <p>Nigeria's story begins thousands of years ago. The Nok culture (around 1500 BCE) is known for its terracotta sculptures, and later kingdoms such as Kanem-Bornu, the Hausa city-states, Oyo and Benin shaped the region.</p>
+        <p>British rule grew through the 1800s and the north and south were joined in 1914. Nigeria became independent on 1 October 1960 and a republic in 1963.</p>
 <p>
-    <button>show timeline</button>
+    <button class="btn btn-forest" type="button" data-bs-toggle="collapse" data-bs-target="#timeline" aria-expanded="false" aria-controls="timeline">show timeline</button>
 </p>
 <div class="collapse" id="timeline">
         <table class="table table-striped">
@@ -58,17 +59,22 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>1000 BC</td>
-                    <td>Development of the Nok culture</td>
+                    <td>1500 BC</td>
+                    <td>nok culture begins</td>
                 </tr>
                 <tr>
-                    <td>1100 AD</td>
-                    <td>Foundation of the Oyo Empire</td>
+                    <td>1914</td>
+                    <td>Joining of Northern and Southern Nigeria</td>
                 </tr>
                 <tr>
-                    <td>1500 AD</td>
-                    <td>Establishment of the Benin Kingdom</td>
+                    <td>1960</td>
+                    <td>Independence from British rule</td>
                 </tr>
+                <tr>
+                    <td>1991</td>
+                    <td>capital moves from lagos to abuja</td>
+                </tr>
+                
             </tbody>
         </table>
     </div>
@@ -79,13 +85,27 @@
         <p>Nigeria is located in West Africa, bordered by Benin to the west, Niger to the north, Chad to the northeast, and Cameroon to the east. It has a southern coastline along the Gulf of Guinea.</p>
 </section>
 
-<section>
+<section id="cities">
     <h2>Cities</h2>
-    <p>Nigeria is home to several major cities, including Lagos, which is the largest city and a major financial center. Abuja is the capital city, known for its modern architecture and government institutions. Other notable cities include Kano, Ibadan, and Port Harcourt.</p>
+    <p>pick a city:</p>
+    <div class="dropdown">
+        <button class="btn btn-forest dropdown-toggle" type="button"  data-bs-toggle="dropdown" aria-expanded="false">
+            Select a City
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Lagos:largest city with business district</a></li>
+            <li><a class="dropdown-item" href="#">Abuja:capital since 1991</a></li>
+            <li><a class="dropdown-item" href="#">Kano: major commercial center</a></li>
+            <li><a class="dropdown-item" href="#">Port Harcourt: oil capital</a></li>
+        </ul>
+    </div>
+    <p class="note-text">TO DO:show information about the selected city</p>
 </section>
+<section id="demographics">
+    <h2>Demographics</h2>
+    <p>Over 220 million people live in Nigeria, making it the most populous country in Africa. More than 250 ethnic groups live here, including the Hausa, Yoruba and Igbo, and over 500 languages are spoken. English is the official language.</p>
 
-<section
->
+    <section id='climate'>
     <h2>Climate</h2>
     <p>Nigeria has a diverse climate, ranging from tropical in the south to arid in the north. The country experiences a rainy season from April to October and a dry season from November to March. The coastal areas are generally humid, while the northern regions can be quite hot and dry.</p>
 
@@ -115,7 +135,7 @@
     <div class="container">
         <p>Dscover nigeria - developed by Adam Adegoke and Samuel Kayode</p>
     </div>
-</footer>
+</footer> 
 
 
 
