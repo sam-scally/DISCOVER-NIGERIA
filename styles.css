@@ -1,3 +1,9 @@
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Ojuju', sans-serif;
+   font-weight: 800;
+}
+
 body{
     font-family: 'Inter', aria, sans-serif;
     margin: 0;
@@ -38,4 +44,14 @@ header{
     .navbar toggler{
         border-color: #3ddc84;
     }
+}
+
+.page-link {
+    color: #0B4D32;
+}
+
+.page-item.active .page-link {
+    background-color: #008751;
+    border-color: #008751;
+    color: #FFFFFF;
 }
